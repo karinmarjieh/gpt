@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343541;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #159977;
+  color: #ececf1;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.chatgpt-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  margin: 30px 0;
+}
+
+.container {
+  background-color: #ffff;
+  border-radius: 12px;
+  width: 60%;
+  padding: 20px;
+}
+
+.response {
+  background-color: #343541;
+  color: #ececf1;
+  border-radius: 12px;
+  margin: 20px 0;
+  padding: 20px;
+  white-space: pre-wrap;
+}
